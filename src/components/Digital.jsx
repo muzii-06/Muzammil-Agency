@@ -3,8 +3,8 @@ import React from 'react'
 export const Digital = () => {
   return (
     <>
-    <div style={{background:"#15171C"}} className=" p-5 mt-5   ">
-        <h2 className="text-center w-75 mx-auto  sty p-5">
+    <div style={{background:"#15171C"}} className=" pt-5 mt-5 container-fluid   ">
+        <h2 className="text-center mx-auto  font-sty p-5">
         It's Time To Take Your Digital Marketing  To The Next Level  We Are Always Here To Help You Grow Your Business 
         </h2>
         <div className=" mx-auto">

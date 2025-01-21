@@ -42,7 +42,7 @@ const Header = ({open,setOpen}) => {
         </ul>
         <div className="d-flex align-items-center gap-5">
 
-        <Button content="Book a Consultation" />
+        <Button className="cons" content="Book a Consultation" />
         <div className="d-flex flex-column gap-3 line-parent " onClick={()=>setOpen(true)}>
         <div className="line line1"></div>
         <div className="line line2"></div>
