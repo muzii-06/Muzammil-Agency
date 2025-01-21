@@ -1,0 +1,30 @@
+import React, { useState } from 'react'
+import Header from './Header'
+import Popup from './Popup'
+import Banner from './Banner'
+import Group from './Group'
+import Gallery from './Gallery'
+import Projects from './Projects'
+import { Digital } from './Digital'
+
+const Home = () => {
+    const[open,setOpen]=useState(false)
+  return (
+   <>
+    {open && <Popup open={open} setOpen={setOpen} />}
+    <div className="main-blur pb-5">
+
+    <Header open={open} setOpen={setOpen} />
+    <Banner />
+
+    </div>
+    <Group />
+    <Gallery />
+    <Projects/>
+    <Digital />
+
+    </>
+  )
+}
+
+export default Home
