@@ -6,11 +6,13 @@ import Group from './Group'
 import Gallery from './Gallery'
 import Projects from './Projects'
 import { Digital } from './Digital'
+import { Particless } from './Particles'
 
 const Home = () => {
     const[open,setOpen]=useState(false)
   return (
    <>
+   <Particless/>
     {open && <Popup open={open} setOpen={setOpen} />}
     <div className="main-blur pb-5">
 
@@ -27,4 +29,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

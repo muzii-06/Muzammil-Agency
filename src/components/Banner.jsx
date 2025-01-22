@@ -9,12 +9,12 @@ import Sliding from './Sliding';
 const Banner = () => {
   return (
     <>
-   <div className="container-fluid ban">
-    <div className="row align-items-center justify-content-center ">
-        <div className="col-lg-6">
-            <div className="row gap-3 align-items-center ">
-                <div className="col-3 d-flex flex-column gap-5 align-items-center ">
-                    <div className="d-flex icons flex-column gap-5 align-items-end justify-content-betweeen ">       
+   <div className="container-fluid position-relative">
+    <div className="row align-items-center postion-relative ">
+        <div className="col-xl-6">
+            <div className="row g-lg-4 g-sm-0 align-items-center ">
+                <div className="col-3 d-flex flex-column gap-5 align-items-center justify-content-between ">
+                    <div className="d-flex  flex-column gap-5 align-items-end justify-content-betweeen ">       
                 <FaFacebookF size={30} className='text-secondary' />
                 <FaInstagram size={30} className='text-secondary' />
                 <FaTwitter size={30} className='text-secondary' />
@@ -34,8 +34,8 @@ const Banner = () => {
                 </div>
                     
                 </div>
-                <div className="col-7 col-lg-8 left-side d-flex  justify-content-center flex-column gap-5">
-                    <div className="d-flex align-items-center gap-1">
+                <div className="col-sm-7 col-9  d-flex   flex-column gap-4">
+                    <div className="d-flex align-items-center gap-3">
 
                     <div className="bar-front">
                       
@@ -64,7 +64,7 @@ const Banner = () => {
             </div>
         </div>
         <div className="col-lg-6">
-        <img className='front-image' width={'100%'} src="https://gaaga.wpengine.com/wp-content/uploads/2023/06/Gaaga-Slider-1-Image-1-1536x1347.jpg" alt="" />
+        <img className='front-image  ' width={'100%'} src="https://gaaga.wpengine.com/wp-content/uploads/2023/06/Gaaga-Slider-1-Image-1-1536x1347.jpg" alt="" />
         </div>
     </div>
 

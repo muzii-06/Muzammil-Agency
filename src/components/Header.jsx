@@ -8,17 +8,21 @@ import { menu_data } from '../data/menu_data';
 const Header = ({open,setOpen}) => {
   return (
     <>
-    <div className="d-flex p-4 justify-content-around align-items-center head ">
+    <div className="d-flex p-4 justify-content-around align-items-center  ">
      <div className="logo d-flex align-items-center">
     <GoDotFill size={25} color='#dd4242' />
+    <div className="d-flex align-items-center">
+
     <h2  className='text-white m-0'>Muzammil
       </h2>  
          <span className='x'>X</span>
+    </div>
     <GoDotFill size={25} className='text-white'  />
 
      </div>
         <ul className="items d-flex list-unstyled m-0 gap-5 pt-3 text-uppercase text-white  ">
-       <li><IoMdClose className='ms-auto my-auto close-btn  border-0 close' size={25} /> </li>
+       <li className='ms-auto my-auto close-btn  border-0 close'><IoMdClose  size={25} /> 
+       </li>
           {menu_data?.map((item,index)=>
         {
           return(
@@ -42,7 +46,7 @@ const Header = ({open,setOpen}) => {
         </ul>
         <div className="d-flex align-items-center gap-5">
 
-        <Button className="cons" content="Book a Consultation" />
+        <Button content="Book a Consultation"/>
         <div className="d-flex flex-column gap-3 line-parent " onClick={()=>setOpen(true)}>
         <div className="line line1"></div>
         <div className="line line2"></div>
