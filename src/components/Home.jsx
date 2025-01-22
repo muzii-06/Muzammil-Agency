@@ -20,7 +20,10 @@ const Home = () => {
     <Banner />
 
     </div>
+    <div className="hi">
+
     <Group />
+    </div>
     <Gallery />
     <Projects/>
     <Digital />

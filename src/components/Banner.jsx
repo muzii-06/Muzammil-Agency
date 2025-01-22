@@ -63,8 +63,8 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-6">
-        <img className='front-image  ' width={'100%'} src="https://gaaga.wpengine.com/wp-content/uploads/2023/06/Gaaga-Slider-1-Image-1-1536x1347.jpg" alt="" />
+        <div className="col-xl-6 front-image">
+        <img className='  ' width={'100%'} height={'100%'} style={{objectFit:"contain"}} src="https://gaaga.wpengine.com/wp-content/uploads/2023/06/Gaaga-Slider-1-Image-1-1536x1347.jpg" alt="" />
         </div>
     </div>
 

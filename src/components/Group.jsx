@@ -4,7 +4,7 @@ import { group_data } from '../data/group_data'
 const Group = () => {
   return (
     <>
-    <div className="container my-5 p-lg-5">
+    <div className="container-fluid my-5 p-lg-5">
         <div className="row justify-content-between ">
             {group_data?.map((item,index)=>
             {
