@@ -17,12 +17,7 @@ margin: 0;
 html {
   overflow-x: hidden !important;
 }
-.hi{
-    background-color: red;
-    width: 100%;
-    position: relative;
-    z-index: 99999 !important;
-}
+
 .para{
     color:#AAAAAB;
 }
